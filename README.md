@@ -59,3 +59,34 @@ This step is important because any code pushed to the repo will automatically tr
  **Step 7: Create an AWS IAM role for Amazon Elastic Beanstalk and EC2.** 
 
 Navigate to the AWS Management console and search for IAM to create IAM roles for Elastic Beanstalk environment and EC2 Instance. It is important to create the IAM roles to secure your instances and makes it easier for permissions to be granted to your instances and to use different resources they may need.
+
+
+ **Step 8: Create an Elastic Beanstalk Environment**  
+After creating your IAM roles, add Elastic Beanstalk to your AWS Management console.  Click services, search for Elastic Beanstalk. Click the star next to Elastic Beanstalk. It will be added to your dashboard in the AWS Management console. This makes it easier to access Elastic Beanstalk. 
+
+
+<img width="621" alt="Screenshot 2024-08-02 at 11 09 41 AM" src="https://github.com/user-attachments/assets/6d4f4cd5-fdf1-4424-b1bb-ff9b5386855e">
+
+  
+Now navigate to Elastic Beanstalk. Once there click, Create Environment. 
+
+
+<img width="621" alt="Screenshot 2024-08-02 at 11 10 17 AM" src="https://github.com/user-attachments/assets/6e80579f-52bb-4574-b7d2-293d7d15583a">
+
+
+Once you have clicked create your environment, The following page will display. Follow each step to configure the environment. 
+
+
+<img width="626" alt="Screenshot 2024-08-02 at 11 11 30 AM" src="https://github.com/user-attachments/assets/4c6ee05f-0522-43fa-848a-0ac204f295fe">
+
+
+**Step 8.1: Upload your source code** 
+
+**This step is very important! While configuring your environment, you will see the following section. 
+
+
+<img width="634" alt="Screenshot 2024-08-02 at 11 12 45 AM" src="https://github.com/user-attachments/assets/f9ac560c-c5e0-4e91-95f9-bc051518d2e8">
+
+
+Upload your source code as a **.zip file. DO NOT PUT THE FILES IN A PARENT DIRECTORY. SUB DIRECTORIES ARE FINE\!** Be sure that all of your files can be seen by Elastic Beanstalk. **When files are in a parent directory, it prevents Elastic Beanstalk from properly deploying your application.** All files should be accessible within your source bundle. 
+
