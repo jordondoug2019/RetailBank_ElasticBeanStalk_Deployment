@@ -49,7 +49,7 @@ After creating the 1st admin user, It’s time to create a multibranch pipeline.
  **Step 6: Connect Github Repo to Jenkins**
 
 Once you have successfully created the multibranch pipeline, Look for Branch Sources, click “Add source” and select “GitHub. Click “+ Add” and select “Jenkins”. Make sure “Kind” reads “Username and password”. Enter your Github username under Username and enter your Github Personal Access Token under Password.   
-This step is important because any code pushed to the repo will automatically trigger builds and test, which makes it easier to detect any issues without affecting the main branch. Once build has successfully been created, You should see the follwoign screen: 
+This step is important because any code pushed to the repo will automatically trigger builds and test, which makes it easier to detect any issues without affecting the main branch. Once build has successfully been created, You should see the following screen: 
 
 
 <img width="1142" alt="JenkinsSuccess" src="https://github.com/user-attachments/assets/bcfa652d-87d2-47ce-a6cc-f6dd18fc12d0">
