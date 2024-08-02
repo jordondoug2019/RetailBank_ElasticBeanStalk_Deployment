@@ -38,3 +38,16 @@ Once Jenkins is up and running on your EC2, open your browser to [https://localh
 Follow the path /var/jenkins_home/secrets/initalAdminPassword  
 
 Copy and paste the password, follow the steps to create your 1st admin user.
+
+ **Step 5: Create a Multibranch Pipeline**
+
+After creating the 1st admin user, It’s time to create a multibranch pipeline. This step allows for different branches to be built and tested without compromising the main branch and causing potential issues. 
+
+ **Step 6: Connect Github Repo to Jenkins**
+
+Once you have successfully created the multibranch pipeline, Look for Branch Sources, click “Add source” and select “GitHub. Click “+ Add” and select “Jenkins”. Make sure “Kind” reads “Username and password”. Enter your Github username under Username and enter your Github Personal Access Token under Password.   
+This step is important because any code pushed to the repo will automatically trigger builds and test, which makes it easier to detect any issues without affecting the main branch.
+
+ **Step 7: Create an AWS IAM role for Amazon Elastic Beanstalk and EC2.** 
+
+Navigate to the AWS Management console and search for IAM to create IAM roles for Elastic Beanstalk environment and EC2 Instance. It is important to create the IAM roles to secure your instances and makes it easier for permissions to be granted to your instances and to use different resources they may need.
