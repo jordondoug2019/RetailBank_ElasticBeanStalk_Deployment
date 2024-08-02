@@ -35,5 +35,6 @@ Once Jenkins is up and running on your EC2, open your browser to [https://localh
 <img width="731" alt="Screenshot 2024-08-01 at 9 34 54 PM" src="https://github.com/user-attachments/assets/b8323d3a-a2bf-4880-96c4-b6b841066803">
 
 
-Follow the path /var/jenkins_home/secrets/initalAdminPassword 
+Follow the path /var/jenkins_home/secrets/initalAdminPassword  
+
 Copy and paste the password, follow the steps to create your 1st admin user.
