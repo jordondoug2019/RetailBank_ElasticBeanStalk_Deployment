@@ -33,5 +33,7 @@ Once Jenkins has been added to your server, run `sudo systemctl start jenkins`. 
  **Step 4: Log into Jenkins**
 Once Jenkins is up and running on your EC2, open your browser to [https://localhost:8080](https://localhost:8080) (Jenkins default port is 8080). The following screen should appear. 
 <img width="731" alt="Screenshot 2024-08-01 at 9 34 54 PM" src="https://github.com/user-attachments/assets/b8323d3a-a2bf-4880-96c4-b6b841066803">
+
+
 Follow the path /var/jenkins_home/secrets/initalAdminPassword 
 Copy and paste the password, follow the steps to create your 1st admin user.
