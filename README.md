@@ -30,6 +30,7 @@ To successfully install Jenkins, root user permissions are needed. Use the comma
 
 Once Jenkins has been added to your server, run `sudo systemctl start jenkins`. To make sure Jenkins is running, run the command `sudo systemctl status jenkins`.
 
+
  **Step 4: Log into Jenkins**
 Once Jenkins is up and running on your EC2, open your browser to [https://localhost:8080](https://localhost:8080) (Jenkins default port is 8080). The following screen should appear. 
 <img width="731" alt="Screenshot 2024-08-01 at 9 34 54 PM" src="https://github.com/user-attachments/assets/b8323d3a-a2bf-4880-96c4-b6b841066803">
@@ -43,10 +44,17 @@ Copy and paste the password, follow the steps to create your 1st admin user.
 
 After creating the 1st admin user, It’s time to create a multibranch pipeline. This step allows for different branches to be built and tested without compromising the main branch and causing potential issues. 
 
+
+ 
  **Step 6: Connect Github Repo to Jenkins**
 
 Once you have successfully created the multibranch pipeline, Look for Branch Sources, click “Add source” and select “GitHub. Click “+ Add” and select “Jenkins”. Make sure “Kind” reads “Username and password”. Enter your Github username under Username and enter your Github Personal Access Token under Password.   
-This step is important because any code pushed to the repo will automatically trigger builds and test, which makes it easier to detect any issues without affecting the main branch.
+This step is important because any code pushed to the repo will automatically trigger builds and test, which makes it easier to detect any issues without affecting the main branch. Once build has successfully been created, You should see the follwoign screen: 
+
+
+<img width="1142" alt="JenkinsSuccess" src="https://github.com/user-attachments/assets/bcfa652d-87d2-47ce-a6cc-f6dd18fc12d0">
+
+
 
  **Step 7: Create an AWS IAM role for Amazon Elastic Beanstalk and EC2.** 
 
