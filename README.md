@@ -131,6 +131,15 @@ When requesting the logs, I continued to get “Failed to Retrieve requested log
 <img width="618" alt="Screenshot 2024-08-05 at 9 46 20 AM" src="https://github.com/user-attachments/assets/a2ff8a48-2ef9-4ef4-8dc9-d0db1410e580">
 
 
+  
+I first checked the Nginx error logs and received the following error:   
+2024/07/31 07:08:50 \[error\] 2713\#2713: **\*1 connect() failed (111: Connection refused) while connecting to upstream,** client: 185.254.196.173, server: , request: "GET /.env HTTP/1.1", upstream: "http://127.0.0.1:8000/.env", host: "52.3.93.84".  
+
+I wasn’t familiar with upstream, so I researched the internet to find any help in relation to the error. I learned in relation to Nginx that the upstream server was the application server. The backend server and application server were not talking to each other. 
+
+
 
 <img width="629" alt="Screenshot 2024-08-05 at 9 46 44 AM" src="https://github.com/user-attachments/assets/0b99abe5-47e9-4dc0-b15f-2a7fad7f71b6">
 
+
+I solved my error by taking my application.py file, all other files, and subdirectories out of the parent directory. Zipped the files and uploaded them as the source code. That resolved the 502 Bad gateway Nginx error.
