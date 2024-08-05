@@ -130,5 +130,7 @@ When requesting the logs, I continued to get “Failed to Retrieve requested log
 3. **Refusing to connect to Upstream**
 <img width="618" alt="Screenshot 2024-08-05 at 9 46 20 AM" src="https://github.com/user-attachments/assets/a2ff8a48-2ef9-4ef4-8dc9-d0db1410e580">
 
+
+
 <img width="629" alt="Screenshot 2024-08-05 at 9 46 44 AM" src="https://github.com/user-attachments/assets/0b99abe5-47e9-4dc0-b15f-2a7fad7f71b6">
 
