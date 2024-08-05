@@ -152,3 +152,8 @@ I wasn’t familiar with upstream, so I researched the internet to find any help
 
 
 I solved my error by taking my application.py file, all other files, and subdirectories out of the parent directory. Zipped the files and uploaded them as the source code. That resolved the 502 Bad gateway Nginx error.
+
+
+# System Design 
+
+![RetailBank drawio](https://github.com/user-attachments/assets/ec1d9f50-7e45-43d8-8cc0-fb2198ad6250)
