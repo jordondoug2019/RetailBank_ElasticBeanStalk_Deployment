@@ -157,3 +157,20 @@ I solved my error by taking my application.py file, all other files, and subdire
 # System Design 
 
 ![RetailBank drawio](https://github.com/user-attachments/assets/ec1d9f50-7e45-43d8-8cc0-fb2198ad6250)
+
+
+# Optimization
+
+**What are the benefits of using managed services for cloud infrastructure?**
+Managed services optimize cloud infrastructure, reducing costs and improving performance while ensuring security and compliance. By outsourcing IT management, businesses can focus on core competencies and accelerate growth. Additionally, managed services provide robust disaster recovery plans and expert support. 
+
+**What are some issues that a retail bank would face choosing this method of deployment and how would you address/resolve them?**
+
+Issues retail banks may face include security concerns, system integration, and service reliability. I would resolve these issues by finding a cloud service provider that can handle data security, can easily integrate with the current Retail Bank infrastructure, and has the ability to scale resources on demand.
+
+
+**What are other disadvantages of using elastic beanstalk or similar managed services for deploying applications?**
+
+Disadvantages of using Elastic Beanstalk or similar managed services include limited control of Infrastructure, difficulty switching providers if needed, and high cost if resources aren’t monitored correctly. 
+
+
