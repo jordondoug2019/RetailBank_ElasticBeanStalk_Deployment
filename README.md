@@ -115,7 +115,7 @@ Upload your source code as a **.zip file. DO NOT PUT THE FILES IN A PARENT DIREC
 
 
 
-**Issues/Troubleshooting**
+***Issues/Troubleshooting***
 
 1. **502 Bad Gateway Nginx Error**
    <img width="1172" alt="Screenshot 2024-08-05 at 9 09 05 AM" src="https://github.com/user-attachments/assets/1541947f-3b29-4898-b3cb-21f15ac66883">
