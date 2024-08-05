@@ -174,3 +174,6 @@ Issues retail banks may face include security concerns, system integration, and 
 Disadvantages of using Elastic Beanstalk or similar managed services include limited control of Infrastructure, difficulty switching providers if needed, and high cost if resources aren’t monitored correctly. 
 
 
+# Conclusion
+
+Through creating this application, I finally understand the connection between the client, web server, application server, and database.  I also learned to document every step of the process. The documentation is helpful because I have  my own resource that I can use to guide me when creating an application using Elastic Beanstalk. 
