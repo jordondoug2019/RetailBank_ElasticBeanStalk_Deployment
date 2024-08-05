@@ -109,6 +109,12 @@ Upload your source code as a **.zip file. DO NOT PUT THE FILES IN A PARENT DIREC
 
 
 
+
+
+
+
+
+
 **Issues/Troubleshooting**
 
 1. **502 Bad Gateway Nginx Error**
